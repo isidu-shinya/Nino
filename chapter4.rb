@@ -1,13 +1,7 @@
-def chapter4(pattern, filename)
- file = File.open(filename)
- file.each_line do |line|
-    if pattern =~ line
-        print line
-    end
-end
-file.close
-end
-
-pattern = Regexp.new(ARGV[0])
-filename = ARGV[1]
-chapter4(pattern, filename)
+books = [
+    {title: "猫街", author: "萩原？太郎"},
+    {title "猫の事務所", author: "宮沢賢治"},
+    {title: "猫語の教科書", author: "ポール、ギャリコ"},
+]
+p books
+pp books
