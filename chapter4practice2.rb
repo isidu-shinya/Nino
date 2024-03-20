@@ -11,4 +11,3 @@ def chapter4(pattern, filename)
    pattern = Regexp.new(ARGV[0])
    filename = ARGV[1]
    chapter4(pattern, filename)
-   
