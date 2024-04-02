@@ -1,9 +1,7 @@
 def max(a, b)
-    if a > b
-        a
-    else
-        b
-    end
+    return a if  a > b
+
+    return b # ここの「return」は省略しても良い
 end
 
 p max(10, 5)
