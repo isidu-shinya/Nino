@@ -1,2 +1,3 @@
 ary = Array.new
-p ary
+p ary.class
+p "ABC".class
