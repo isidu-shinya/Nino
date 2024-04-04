@@ -1,6 +1,6 @@
-def meth(arg, *args)
-    [arg, args]
+def a(a, *b, c)
+    [a, b, c]
 end
 
-p meth(1)
-p meth(1, 2, 3)
+p a(1, 2, 3, 4, 5)
+p a(1, 2)
