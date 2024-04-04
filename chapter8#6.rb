@@ -1,5 +1,6 @@
-def foo(*args)
-    args
+def meth(arg, *args)
+    [arg, args]
 end
 
-p foo(1, 2, 3)
+p meth(1)
+p meth(1, 2, 3)
