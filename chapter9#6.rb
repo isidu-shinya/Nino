@@ -32,10 +32,18 @@ def output
 end
 end
 
+  class << self
+    def count
+        @@count
+    end
+  end
+
 r1 = Receipt.new("ストアA")
 r2 = Receipt.new("ストアB")
 
 p Receipt.count
+r1.lines =[{name: '1bitう', price: 1, num: 1000000000}, {name: 'ゴリラ', price: 500, num: 5}]
+r2.lines =[{name: '別のやつ', price: 123, num: 5},{name: '乳首ドリルすな', price: 100, num: 4}]
 r1.output
 r2.output
 p Receipt.count
