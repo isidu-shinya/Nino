@@ -8,7 +8,16 @@ module HelloModule
 end
 
 p HelloModule::VERSION
-HelloModule.hello("Alice")
+HelloModule.hello("うんこ")
 include HelloModule
 p VERSION
-hello("Alice")
+hello("うんこ")
+
+module FooModule
+    def foo
+        p self
+    end
+    module_function :foo
+end
+
+FooModule.foo
