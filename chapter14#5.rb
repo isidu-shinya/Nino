@@ -1,0 +1,12 @@
+alpha = ["棒", "おデブリ", "ドンキー", "1bitう", "うんこ", "スーパーバイザーモード"]
+alpha[1]
+alpha[4]
+p alpha
+p alpha[1]
+p alpha[-1]
+p alpha[-2]
+p alpha[1..3]
+p alpha[1..7]
+p alpha[1..]
+p alpha[2, 2]
+p alpha[2, 3]
