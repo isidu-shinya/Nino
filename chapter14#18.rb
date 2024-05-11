@@ -9,3 +9,7 @@ list = ["a", "b", "c", "d"]
 list.each_with_index do |elem, i|
     puts "#{i+i}番目の要素は#{elem}です。"
 end
+
+while item = a.pop
+    # itemに対する処理
+end
