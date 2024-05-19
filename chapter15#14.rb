@@ -18,3 +18,8 @@ tmp = str.each_char.collect do |char|
     "(#{char})"
 end
 p tmp
+
+str = "AA\nBB\nCC\n"
+p str.each_line.class
+p str.each_line.map {|line| line.chop}
+p str.each_byte.reject {|c| c == 0x0a}
